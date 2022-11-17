@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10771,6 +10771,26 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.hamburguer__menu {
+  display: none;
+}
+.hamburguer__menu #myLinks {
+  display: none;
+}
+.hamburguer__menu .icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hamburguer__menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 /*# sourceMappingURL=custom.css.map */
